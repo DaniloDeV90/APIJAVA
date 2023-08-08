@@ -1,7 +1,8 @@
 package com.empresasduh.api.repositories;
 
-import com.empresasduh.api.Entities.User;
+import com.empresasduh.api.Entities.Order;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository <User, Long> {
+public interface OrderRepository extends JpaRepository <Order, Long> {
 }
